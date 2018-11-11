@@ -1,4 +1,4 @@
-package XXXXXXXXXXXXXXXXXXXXXX;
+package wallpaper123;
 
 import android.app.WallpaperManager;
 import android.support.v7.app.AppCompatActivity;
@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
         // BANNER AD ////////////////////////////////////////////////////////////////////
         adView = new AdView(this);
         adView.setAdSize(AdSize.BANNER);
-        adView.setAdUnitId("ca-app-pub-XXXXXXXXXXXXXXXXXXXXXX");
+        adView.setAdUnitId("ca-app-pub-123");
 
         RelativeLayout layout = (RelativeLayout) findViewById(R.id.container);
         layout.addView(adView);
@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
             // INTERSTITIAL AD //////////////////////////////////////////////////////////////
             // Create the interstitial.
             interstitial3 = new InterstitialAd(this);
-            interstitial3.setAdUnitId("ca-app-pub-XXXXXXXXXXXXXXXXXXXXXX");
+            interstitial3.setAdUnitId("ca-app-pub-123");
 
             // Create ad request.
             AdRequest adRequest4 = new AdRequest.Builder().build();
@@ -221,7 +221,7 @@ public class MainActivity extends AppCompatActivity {
             // INTERSTITIAL AD //////////////////////////////////////////////////////////////
             // Create the interstitial.
             interstitial2 = new InterstitialAd(this);
-            interstitial2.setAdUnitId("ca-app-pub-XXXXXXXXXXXXXXXXXXXXXX");
+            interstitial2.setAdUnitId("ca-app-pub-123");
 
             // Create ad request.
             AdRequest adRequest3 = new AdRequest.Builder().build();
