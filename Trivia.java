@@ -1,4 +1,4 @@
-package XXXXXXXXXXXXXXXXXXXXXX;
+package Trivia123;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -25,14 +25,14 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        MobileAds.initialize(this, "ca-app-pub-XXXXXXXXXXXXXXXXXXXXXX");
+        MobileAds.initialize(this, "ca-app-pub-123");
 
         mAdView = findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest);
 
         mInterstitialAd = new InterstitialAd(this);
-        mInterstitialAd.setAdUnitId("ca-app-pub-XXXXXXXXXXXXXXXXXXXXXX");
+        mInterstitialAd.setAdUnitId("ca-app-pub-123");
         mInterstitialAd.loadAd(new AdRequest.Builder().build());
     }
 
