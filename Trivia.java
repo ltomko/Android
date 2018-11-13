@@ -1,4 +1,4 @@
-package Trivia123;
+package Trivia;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
